@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>COGS3 - Best of 10!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body class="bg-info">
+
+  <div class="container">
+    <!-- Reports the values of the die and the sum -->
+    <h1 class="display-4 text-secondary">Let's Roll the Dice!</h1>
+
+    <!-- Reports the outcome of the bet -->
+    <h2 class="text-dark">
+      If the dice add to anything above 9, you win $5! <br>
+      If the dice add to 5 or less, I win $5. <br>
+      Ready to play?
+    </h2>
+
+    <!-- JS will input the content -->
+    <h3></h3>
+
+    <div>
+      <p class="text-dark"> Do you want to roll the dice? </p>
+      <button class="btn btn-primary myBtn" onclick="letsPlay()">Let's Play Now!</button>
+    </div>
+
+    <div class="dice">
+      <img class="img1" src="images/dice6.png">
+    </div>
+
+    <div class="dice">
+      <img class="img2" src="images/dice6.png">
+    </div>
+  </div>
+  <script>                                                                        
+    function Money () {
+      var Money = Math.random() * 100
+          Money = 5 * Scores
+      console.log ("Your winning money is" + "Money");
+    }
+  </script>                                                                        
+
+  <footer>
+    COGS3 - Dice Game Bet 10 - Hoa - Date of Nov 27, 2023
+  </footer>
+
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
